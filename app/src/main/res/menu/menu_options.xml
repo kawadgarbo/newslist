@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/like"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:title="Like"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/dislike"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="DisLike"
+        app:showAsAction="ifRoom" />
+
+</menu>
